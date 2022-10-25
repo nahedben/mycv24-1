@@ -189,3 +189,10 @@ h3,
 }
 .a {
 }
+footer {
+  z-index: 1;
+  background-color: white;
+}
+img {
+  visibility: hidden;
+}
