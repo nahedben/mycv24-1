@@ -44,6 +44,16 @@ h1 {
 }
 .p-details h3 {
   line-height: 0.5em;
+  /* color: ; */
+}
+.p-details li a {
+  text-decoration: none;
+  color: rgb(63, 93, 121);
+}
+
+.p-details li a:hover {
+  color: rgb(49, 74, 97);
+  font-size: larger;
 }
 hr {
   border-top: 1px solid rgb(75, 73, 73);
