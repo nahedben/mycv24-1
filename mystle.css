@@ -120,8 +120,14 @@ ul {
 }
 .main-bar {
 }
+.side-line {
+  width: 80%;
+}
+.cer-cl {
+  width: 90%;
+}
 .hl-main {
-  width: 95%;
+  width: 80%;
   justify-self: left;
   margin: 5px 10px 10px 10px;
 }
