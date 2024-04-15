@@ -32,15 +32,34 @@ h1 {
 .low-side {
   padding: 10px;
 }
+img {
+  z-index: 2;
+  height: 2.5cm;
+  border-radius: 50% 50%;
+}
+h5 {
+  font-size: smaller;
+}
+.text-name {
+  font-size: small;
+  line-height: 1.5em;
+  padding-bottom: 3px;
+}
+
 .title {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
   margin: 0;
-  padding: 10px 10px 5px 5px;
-  background-color: rgb(73, 73, 148);
+  /* padding: 10px 10px 5px 5px; */
+  padding: 3px;
+  /* background-color: rgb(73, 73, 148); */
+  background-color: rgb(9, 28, 87);
   color: ivory;
-  text-align: right;
+  text-align: center;
   width: 7cm;
   height: 3cm;
-  border-radius: 0 0% 0% 40%;
+  /* border-radius: 0 0% 0% 40%; */
 }
 .p-details h3 {
   line-height: 0.5em;
@@ -59,12 +78,17 @@ hr {
   border-top: 1px solid rgb(75, 73, 73);
 }
 .p-details {
-  border-top: -20px;
+  border-top: -10px;
+  margin-top: 10px;
 }
 
 .p-details h4 {
   padding-left: 5px;
   padding-bottom: -5px;
+}
+.int {
+  font-size: 14px;
+  line-height: 18px;
 }
 .text-pg {
   display: flex;
@@ -100,7 +124,7 @@ ul {
   width: 10px !important;
   height: 10px !important;
   border-radius: 50%;
-  background-color: rgb(68, 67, 105);
+  background-color: rgb(9, 28, 87);
   margin: 5px;
 }
 .ball-cont {
@@ -111,14 +135,22 @@ ul {
   /* border: solid 1px black; */
 }
 .text-cont {
+  font-family: sans-serif;
+  font-style: oblique;
   text-align: justify;
   line-height: 1.3em;
   text-indent: 10px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 5px;
   font-size: 13px;
   font-weight: 450;
 }
-.main-bar {
+.main-bar-h3 {
+  color: rgb(201, 201, 201);
+  background-color: rgb(9, 28, 87);
+  height: auto;
+  padding: 10px 5px;
+  font-weight: 900;
+  font-size: larger;
 }
 .side-line {
   width: 80%;
@@ -136,6 +168,9 @@ ul {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+}
+.langu-1 {
+  margin-top: 10px;
 }
 i {
   margin-right: 5px;
@@ -202,6 +237,7 @@ h3,
 }
 .main-title2 {
   width: 200px;
+  font-size: small;
 }
 .a {
 }
@@ -210,5 +246,5 @@ footer {
   background-color: white;
 }
 img {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
