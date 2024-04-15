@@ -144,6 +144,7 @@ ul {
   font-size: 13px;
   font-weight: 450;
 }
+
 .main-bar-h3 {
   color: rgb(201, 201, 201);
   background-color: rgb(9, 28, 87);
@@ -239,12 +240,11 @@ h3,
   width: 200px;
   font-size: small;
 }
-.a {
+.main-title3 {
+  width: 100px;
+  font-size: small;
 }
 footer {
   z-index: 1;
   background-color: white;
-}
-img {
-  /* visibility: hidden; */
 }
