@@ -20,7 +20,9 @@
       <!-- start the side bar -->
       <div class="side">
         <section class="title">
-          <div class="perso"><img src="idImage.png" alt="idphoto" /></div>
+          <div class="perso">
+            <img src="./myimages/idImage.png" alt="idphoto" />
+          </div>
 
           <div class="name">
             <div class="text-name">Nahed Ben Haj M'Hamed</div>
@@ -68,40 +70,27 @@
           <article class="p-details">
             <h3>Interests</h3>
             <hr class="side-line" />
-            <ul>
+            <ul class="inte">
               <li>Coding</li>
               <li>Reading</li>
               <li>cooking</li>
             </ul>
           </article>
           <article class="p-details">
-            <h3>Certifications</h3>
+            <div class="cert-hide-bt">
+              <h3>Certifications</h3>
+              <button id="bt1" class="cert-bt gr">show</button>
+            </div>
             <hr class="side-line" />
             <ul>
-              <li class="cer-cl">
-                <a
-                  href="https://freecodecamp.org/certification/nahed/responsive-web-design"
-                  target="_blank"
-                >
-                  Responsive Web Design</a
-                >
-              </li>
-              <li class="cer-cl">
-                <a
-                  href="https://freecodecamp.org/certification/nahed/javascript-algorithms-and-data-structures"
-                  target="_blank"
-                >
-                  JavaScript Algorithms and Data Structures</a
-                >
-              </li>
+              <li class="cer-cl">Responsive Web Design</li>
+              <li class="cer-cl">JavaScript Algorithms and Data Structures</li>
 
+              <li class="cer-cl">Front End Development Libraries</li>
               <li class="cer-cl">
-                <a
-                  href="https://freecodecamp.org/certification/nahed/front-end-development-libraries"
-                  target="_blank"
-                >
-                  Front End Development Libraries</a
-                >
+                <div class="hov" id="jv_challenge">
+                  Java Script Certificate Course
+                </div>
               </li>
             </ul>
           </article>
@@ -147,31 +136,31 @@
           </article>
         </section>
       </div>
-      <!-- end of the side bar -->
-      <!-- starting the main bar -->
+
       <section class="main-bar">
         <div class="text-cont">
           My Name is Nahed Ben Haj, I'm a software engineer. I have got my
           bachelor degree on September 2020. I have participated in many
-          projects remotely where I've used different technologies.
+          projects remotely where I've used different technologies especially
+          related to web development
         </div>
-        <!-- <hr class="main-bar-h" /> -->
-        <!-- <hr class="hl-main" /> -->
+
         <article class="p-details">
           <div class="main-bar-h3">Work experience</div>
           <p class="int">
             I have worked from 2002 to 2009 in different fields before I've got
             my software bachelor degree in 2020
           </p>
-          <!-- <hr class="main-bar-h" /> -->
-          <!-- <hr class="hl-main" /> -->
+
           <div class="header-date">
             <h4 class="main-bar-h4">Freelancer</h4>
             <div class="date">Sep2020 - Dec2023</div>
           </div>
           <div class="text-pg">
             <div>
-              Working remotely in different projects essentially web projects.
+              I've made a first draft of an management system of a pastry
+              production using spring boot and Angular. I worked remotely in
+              different small projects essentially web projects.
             </div>
             <div></div>
           </div>
@@ -201,11 +190,9 @@
           </div>
         </article>
 
-        <!-- <hr class="hl-main" /> -->
-
         <article class="p-details">
           <div class="main-bar-h3">Education and Qualifications</div>
-          <!-- <hr class='main-bar-h'/> -->
+
           <div class="header-date">
             <h4 class="main-bar-h4">Bachelor Software engineer</h4>
             <div class="date">Sep2017 - Sep2020</div>
@@ -220,126 +207,172 @@
           <div class="text-pg2">
             <div>ISET KsarHellal, Monastir, Tunisia</div>
           </div>
-
-          <!-- <div class="text-pg2">
-            <div class="tit">Bachelor Software engineer</div>
-            <div class="sub-tit">Polytech Monastir, Monastir, Tunisia</div>
-          </div>
-
-          <div class="text-pg2">
-            <div class="tit">Height Technician production clothes</div>
-            <div class="sub-tit">ISET KsarHellal, Monastir, Tunisia</div>
-          </div> -->
         </article>
-        <!-- <hr class="hl-main" /> -->
+
         <article class="p-details">
-          <div class="main-bar-h3">Skills</div>
-          <div class="langu-1">
-            <div class="level">
-              <h4 class="title2 main-title2">HTML, CSS, Javascript:</h4>
-              <div class="ball-cont">
-                <div class="ball ball1"></div>
-                <div class="ball ball2"></div>
-                <div class="ball ball3"></div>
-                <div class="ball ball4"></div>
-                <div class="ball ball5"></div>
+          <div class="main-bar-h3 skills">Skills</div>
+          <div class="grid-cont">
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">HTML:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball4"></div>
+                  <div class="ball ball5"></div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="langu">
-            <div class="level">
-              <h4 class="title2 main-title2">React:</h4>
-              <div class="ball-cont">
-                <div class="ball ball1"></div>
-                <div class="ball ball2"></div>
-                <div class="ball ball3"></div>
-                <div class="ball ball4"></div>
-                <div class="ball ball5"></div>
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">CSS:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball4"></div>
+                  <div class="ball ball5"></div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="langu">
-            <div class="level">
-              <h4 class="title2 main-title2">SQL & Postgresql:</h4>
-              <div class="ball-cont">
-                <div class="ball ball1"></div>
-                <div class="ball ball2"></div>
-                <div class="ball ball3"></div>
-                <div class="ball ball4"></div>
-                <div class="ball ball5"></div>
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">JavaScript:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball4"></div>
+                  <div class="ball ball5"></div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="langu">
-            <div class="level">
-              <h4 class="title2 main-title2">Spring boot, Java:</h4>
-              <div class="ball-cont">
-                <div class="ball ball1"></div>
-                <div class="ball ball2"></div>
-                <div class="ball ball3"></div>
-                <div class="ball ball4"></div>
-                <div class="ball ball5gr"></div>
-              </div>
-            </div>
-          </div>
 
-          <div class="langu">
-            <div class="level">
-              <h4 class="title2 main-title2">Python:</h4>
-              <div class="ball-cont">
-                <div class="ball ball1"></div>
-                <div class="ball ball2"></div>
-                <div class="ball ball3"></div>
-                <div class="ball ball4"></div>
-                <div class="ball ball5gr"></div>
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">SASS:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball5gr"></div>
+                  <div class="ball ball5gr"></div>
+                  <div class="ball ball5gr"></div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="langu">
-            <div class="level">
-              <h4 class="title2 main-title2">Django:</h4>
-              <div class="ball-cont">
-                <div class="ball ball1"></div>
-                <div class="ball ball2"></div>
-                <div class="ball ball3"></div>
-                <div class="ball ball4"></div>
-                <div class="ball ball5gr"></div>
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">React:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball5gr"></div>
+                  <div class="ball ball5gr"></div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="langu">
-            <div class="level">
-              <h4 class="title2 main-title2">Angular 8:</h4>
-              <div class="ball-cont">
-                <div class="ball ball1"></div>
-                <div class="ball ball2"></div>
-                <div class="ball ball3"></div>
-                <div class="ball ball4"></div>
-                <div class="ball ball5gr"></div>
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">Angular 8:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball5gr"></div>
+                  <div class="ball ball5gr"></div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="langu">
-            <div class="level">
-              <h4 class="title2 main-title2">Microsoft office:</h4>
-              <div class="ball-cont">
-                <div class="ball ball1"></div>
-                <div class="ball ball2"></div>
-                <div class="ball ball3"></div>
-                <div class="ball ball4"></div>
-                <div class="ball ball5"></div>
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">SQL & Postgresql:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball4"></div>
+                  <div class="ball ball5"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">REST API:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball4"></div>
+                  <div class="ball ball5gr"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">Spring boot, Java:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball4"></div>
+                  <div class="ball ball5"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">Python:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball4"></div>
+                  <div class="ball ball5gr"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">Django:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball4gr"></div>
+                  <div class="ball ball5gr"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="langu">
+              <div class="level">
+                <h4 class="title2 main-title2">Microsoft office:</h4>
+                <div class="ball-cont">
+                  <div class="ball ball1"></div>
+                  <div class="ball ball2"></div>
+                  <div class="ball ball3"></div>
+                  <div class="ball ball4"></div>
+                  <div class="ball ball5"></div>
+                </div>
               </div>
             </div>
           </div>
         </article>
-        <!-- <img src="idImage.png" alt="idphoto" /> -->
       </section>
     </main>
-    <!-- <footer><img class="min-cv" src="./mycv.png" alt="mycv" /></footer> -->
+    <article id="cert-cont"></article>
+
+    <script async src="script.js"></script>
   </body>
 </html>
